@@ -1,0 +1,33 @@
+title: "[Proposal] "
+labels: ["best-practice"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Propose a new or changed engineering practice. Current practices:
+        [docs/best-practices](https://github.com/Hexagon-Mining-Infrastructure/.github/blob/main/docs/best-practices/README.md).
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [Git workflow, Terraform, CI/CD, Security, Documentation, AI-assisted development, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current practice / problem
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should we do instead? Include examples.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact and migration
+      description: Which repos change? Is it enforceable in CI/pre-commit?
