@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and best-practice discussions
+    url: https://github.com/orgs/Hexagon-Mining-Infrastructure/discussions
+    about: Ask questions, share ideas and propose changes to our practices.
+  - name: Report a security vulnerability
+    url: https://github.com/Hexagon-Mining-Infrastructure/.github/blob/main/SECURITY.md
+    about: Please do not report security issues in public issues.
